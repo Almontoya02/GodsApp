@@ -1,0 +1,40 @@
+.contentTitle{
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 45vh;
+}
+
+.containerText{
+    width: 90vw;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-width: 40vw;
+
+}
+.mainimg{
+    object-fit: cover ;
+    min-width: 250px;
+    min-height: 250px;
+    width:322px;
+    height: 300px;
+    max-width: 322px;
+    max-height: 350px;
+}
+.mainContent{
+    width: 100vw;
+    height: auto;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+.containerTarjets{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
