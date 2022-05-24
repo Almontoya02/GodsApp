@@ -38,3 +38,7 @@
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
 }
+
+.containerText > h1{
+    color: white;
+}
